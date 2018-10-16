@@ -6,7 +6,7 @@ body{
 }
 
 /* GLOBAL SECTION */
-/* Use . when it's a class, use number sign when it's an UD */
+/* Use . when it's a class, use number sign (#) when it's an UD */
 .container{
     width:80%;
     margin:auto;
