@@ -87,83 +87,6 @@ header a:hover{
     font-weight:bold;
 }
 
-/* CATEGORY SECTION */
-#firstcategory{
-    width:100%;
-    background:#35424a;
-    color:white;
-    text-align:center;
-    font-size:22px;
-    font-style:bold;
-    padding:1px;
-}
-
-#secondcategory{
-    margin-top:-26px;
-    width:100%;
-    background:#e8491d;
-    color:white;
-    text-align:center;
-    font-size:22px;
-    font-style:bold;
-}
-
-#category{
-    width:100%;
-    background:#e8491d;
-    color:white;
-    text-align:center;
-    font-size:22px;
-    font-style:bold;
-}
-
-/* SHOWCASE SECTION */
-#showcase{
-    min-height:300px;
-    background:url('../img/showcase.jpg') no-repeat;
-    background-size: cover;
-    background-position: 50% 35%;
-    text-align:center;
-    color:#ffffff;
-}
-
-#showcase h1{
-    color:#ffffff;
-    margin-top:80px;
-    font-size:60px;
-    font-style:bold;
-    margin-bottom:-25px;
-}
-
-#showcase p{
-    font-size:28px;
-    font-style:bold;
-    color:#ffffff;
-}
-
-/* NEWSLETTER SECTION */
-
-#newsletter{
-    padding:0px;
-    color:#ffffff;
-    background:#35424a
-}
-
-#newsletter h1{
-    float:left;
-}
-
-#newsletter form {
-    float:right;
-    margin-top:24px;
-}
-
-#newsletter input[type="email"]{
-    padding:3px;
-    height:28px;
-    width:250px;
-}
-
 /* FLEX BOX */
 #flexcategory{
     margin-top:-26px;
@@ -200,50 +123,6 @@ header a:hover{
     flex-basis:22%;
 }
 
-.flexbox3{
-    flex-basis:22%;
-}
-
-flexlist ul{
-    position:relative;
-    display: inline-block;  
-    list-style: none;
-    text-align: center;
-    margin: auto;
-    padding: 0;
-}
-
-/* BOXES */
-/* When using % it scales properly */
-
-#boxes{
-    margin-top:20px;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-#boxes .box{
-    float:left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width:22%;
-    padding:10px;
-}
-
-#boxes .box img{
-    width:90px;
-}
-
-#boxes .box3_left img, .box3_middle img, .box3_right img{
-    width:90px;
-}
-
-#boxes .box4_left img, .box4_middle img, .box4_right img{
-    width:90px;
-}
-
 /* SIDEBAR SECTION */
 
 aside#sidebar{
@@ -251,35 +130,9 @@ aside#sidebar{
     text-align: center;
 }
 
-aside#sidebar .quote input{
-    width:400px;
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
     padding:0px;
-    height: 28px;
-    font-size:15px;
-}
-aside#sidebar label {
-    font-size:20px;
-}
-
-aside#sidebar h3 {
-    font-size:30px;
-    margin:0;
-}
-
-aside#sidebar .quote textarea{
-    width:400px;
-    padding:0px;
-    height: 200px;
-    font-size:15px;
-}
-
-aside#sidebar button, aside#sidebar button_1{
-    width:400px;
-    justify-content: center;
-    float:center;
-    text-align:center;
-    margin: 0 auto;
-    font-size:18px;
 }
 
 /* FOOTER SECTION */
@@ -303,7 +156,7 @@ footer{
 
 footer p{
     margin-top:0px;
-} 
+}
 
 /* TEST AREA */
 
@@ -319,8 +172,10 @@ footer p{
     #boxest .boxt,
     .main-col,
     .about-col,
+    article#main-tut,
     aside#sidebar,
     aside#aboutbar,
+    ul#servicestut,
     .container{
         float:none;
         text-align:center;
